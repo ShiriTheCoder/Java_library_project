@@ -17,7 +17,7 @@ public class Main {
             System.out.println("6. For exit – Press 6");
 
             int choice = scanner.nextInt();
-            scanner.nextLine();  // Consume newline
+            scanner.nextLine();  
 
             switch (choice) {
                 case 1:
@@ -27,7 +27,7 @@ public class Main {
                     String title = scanner.nextLine();
                     System.out.println("Enter number of pages:");
                     int numOfPages = scanner.nextInt();
-                    scanner.nextLine();  // Consume newline
+                    scanner.nextLine();
 
                     Book newBook = new Book(author, title, numOfPages);
                     library.addNewBook(newBook);
