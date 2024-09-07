@@ -2,7 +2,7 @@ package Library_Manager;
 
 public class Book {
     private final String author;
-    private  final String title;
+    private final String title;
     private final int numOfPages;
 
     public Book(String author, String title, int numOfPages) {
