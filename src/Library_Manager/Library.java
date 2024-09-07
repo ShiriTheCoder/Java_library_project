@@ -10,7 +10,6 @@ public class Library {
     public Library() {
         this.shelves = new ArrayList<>();
         this.readers = new ArrayList<>();
-        // Initializing the library with 3 shelves, each with 2 books
         for (int i = 0; i < 3; i++) {
             Shelf shelf = new Shelf();
             shelf.addBook(new Book("Author1", "Book1", 100));
