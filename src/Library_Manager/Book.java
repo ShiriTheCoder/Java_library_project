@@ -1,9 +1,9 @@
 package Library_Manager;
 
 public class Book {
-    private String author;
-    private  String title;
-    private int numOfPages;
+    private final String author;
+    private  final String title;
+    private final int numOfPages;
 
     public Book(String author, String title, int numOfPages) {
         this.author = author;
